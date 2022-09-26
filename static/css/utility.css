@@ -1,0 +1,20 @@
+.p-40 {
+    padding: 40px;
+}
+
+.wrapper-standard {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 25px;
+}
+
+.relative {
+    position: relative;
+}
+
+.font-mono {
+    font-family: "Inconsolata"
+}

@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "General Sans";
+    src: url(/static/fonts/GeneralSans-Variable.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "General Sans";
+    src: url(/static/fonts/GeneralSans-Variable.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Boska";
+    src: url(/static/fonts/Boska-Variable.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Boska";
+    src: url(/static/fonts/Boska-Variable.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Clash Grotesk";
+    src: url(/static/fonts/ClashGrotesk-Variable.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Clash Grotesk";
+    src: url(/static/fonts/ClashGrotesk-Variable.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Clash Grotesk";
+    src: url(/static/fonts/ClashGrotesk-Variable.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Clash Grotesk";
+    src: url(/static/fonts/ClashGrotesk-Variable.ttf) format("truetype");
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #eae8df;
+    color: #A83731;
+    font-family: "Clash Grotesk";
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    width: 100vw;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Boska";
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.heroHeaderTitle__jHg7 {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 25px;
+}
+
+.superiorTitle__jHg7,
+.inferiorTitle__jHg7 {
+    font-size: 48px;
+    display: inline-block;
+    grid-column: 1 / -1;
+}
+
+.heroTextContent__jHg7 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heroBlurb__jHg7 {
+    line-height: 1.5;
+    max-width: 720px;
+    margin-bottom: 25px;
+}
+
+.heroCTA__jHg7 {
+    border: none;
+    background-color: #A83731;
+    color: #fff;
+    font-family: "Clash Grotesk";
+    font-size: 14px;
+    height: 52px;
+    width: 240px;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+.heroImageContainer__jHg7 {
+    align-items: center;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.heroImage__jHg7 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sectionTitle__jHg7 {
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.shopCoordinates__jHg7 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.bestSellersTitle__jHg7 {
+    font-family: "Clash Grotesk";
+}
+
+.bestSellersTitle__jHg7 {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+}
+
+.bestSellersTitle__jHg7::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #A83731;
+}
+
+.bestSellersTitleText__jHg7 {
+    margin-right: 9px;
+    white-space: nowrap;
+}
+
+.superiorIsland__g7w9 {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 25px;
+}
+
+.topIslandMenu__g7w9 {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.topIslandLogo__g7w9 {
+    width: 280px;
+    grid-column: 1 / -1;
+    margin: 0 auto;
+}
+
+.superiorIslandMenu__g7w9 ul {
+    display: none;
+}
+
+.menuToggler__g7w9 {
+    position: absolute;
+    right: 25px;
+}
+
+.menuToggler__g7w9::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #A83731;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -18px;
+}
+
+.topIslandWrapper__g7w9 {
+    padding: 40px 0;
+}
+
+.footer {
+    background-color: #A83731;
+    color: #eae8df;
+}
+
+
+@media only screen and (min-width: 856px) {
+    .superiorTitle__jHg7,
+    .inferiorTitle__jHg7 {
+        font-size: 56px;
+    }
+
+    .heroImageContainer__jHg7 {
+        flex-direction: row;
+    }
+
+    .heroImage__jHg7 {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .superiorIslandMenu__g7w9 {
+        position: absolute;
+        right: 25px;
+    }
+
+    .superiorIslandMenu__g7w9 ul  {
+        display: flex;
+        gap: 52px;
+    }
+
+    .menuToggler__g7w9 {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .superiorTitle__jHg7 {
+        display: inline-block;
+        font-size: 72px;
+        grid-column: 2 / 10;
+    }
+    
+    .inferiorTitle__jHg7 {
+        display: inline-block;
+        font-size: 72px;
+        grid-column: 5 / 12;
+    }
+
+    .heroImageContainer__jHg7 {
+        flex-direction: row;
+    }
+
+    .heroImage__jHg7 {
+        width: 50%;
+        overflow: hidden;
+    }
+}

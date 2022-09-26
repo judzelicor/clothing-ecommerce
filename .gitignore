@@ -8,4 +8,3 @@
 # Static Files Generated From Django Application Using `collectstatic`
 
 media
-static
