@@ -1,0 +1,11 @@
+# MacOS Files
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+
+# Static Files Generated From Django Application Using `collectstatic`
+
+media
+static
