@@ -3,6 +3,9 @@ This is a clothing e-commerce web application for a hypothetical brand, Oubjects
 view and shop the lastest clothing in their collection. The front page also display their best sellers and one featured product near the bottom of the
 page.
 
+## Screenshot Previews
+<img src="https://gate-of-babylon.s3.ca-central-1.amazonaws.com/oubjects-ecommerce/Screen+Shot+2022-09-28+at+11.29.53+AM.png" />
+
 ## Current Features
 - It has a search function where customers are able to search for a particular clothing site-wide.
 - It has a shopping cart system where customers are able to add or remove clothing items from their cart and specify the number of clothing 
@@ -10,6 +13,7 @@ they've intended to purchase which can be seen on the upper-right corner of the 
 - It has Strip integrated to handle payments. You can go through the payment process and use a testing Stripe credit card `4242 4242 4242 4242`.
 - A user authentication system where customers are able to sign up for an account and log in.
 - A blogging system for admin users to post and create artciles related to clothing and their brand.
+- It uses AWS S3 to store every static assets.
 
 ## Run This Project
 You can run this project on your local computer for further testing and modifications.
