@@ -3,7 +3,7 @@ This is a clothing e-commerce web application for a hypothetical brand, Oubjects
 view and shop the lastest clothing in their collection. The front page also display their best sellers and one featured product near the bottom of the
 page.
 
-# Current Features
+## Current Features
 - It has a search function where customers are able to search for a particular clothing site-wide.
 - It has a shopping cart system where customers are able to add or remove clothing items from their cart and specify the number of clothing 
 they've intended to purchase which can be seen on the upper-right corner of the website on desktops and through a menu toggle when the website if viewed in a mobile device.
@@ -11,7 +11,7 @@ they've intended to purchase which can be seen on the upper-right corner of the 
 - A user authentication system where customers are able to sign up for an account and log in.
 - A blogging system for admin users to post and create artciles related to clothing and their brand.
 
-# Run This Project
+## Run This Project
 You can run this project on your local computer for further testing and modifications.
 1. Make sure you have Python 3.6+ installed on your computer. You can set it up by following instructions from their [website](https://www.python.org). I
 personally prefer using [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and set up an isolated environment but takes some tinkering around but
