@@ -22,7 +22,7 @@ cd <NAME_OF_YOUR_DIRECTORY>
 ```
 3. Clone this repository by typing in the command
 ```
-git clone https://github.com/judzelicor/django-generic-ecommerce ./
+git clone https://github.com/judzelicor/clothing-ecommerce ./
 ```
 4. Download Django by typing in the command
 ```
