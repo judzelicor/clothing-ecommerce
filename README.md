@@ -42,3 +42,4 @@ ran.
 ### Acknowledgements
 - Designed and implemented by Judz Philip Elicor.
 - Images were taken from actual ecommerce websites.
+- Written content were also taken from actual ecommerce websites.
