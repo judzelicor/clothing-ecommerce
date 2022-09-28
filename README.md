@@ -34,3 +34,7 @@ python manage.py runserver
 ```
 6. Open your desired browser and visit http://localhost:8000 or the port that your project is open which can be read right after the command that you just
 ran.
+
+### Acknowledgements
+- Designed and implemented by Judz Philip Elicor.
+- Images were taken from actual ecommerce websites.
