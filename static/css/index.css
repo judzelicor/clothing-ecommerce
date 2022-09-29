@@ -50,22 +50,29 @@
     box-sizing: border-box;
 }
 
+svg {
+    display: block;
+}
+
+
+
 body,
 html {
     background-color: #eae8df;
     color: #A83731;
     font-family: "Clash Grotesk";
-    height: 100vh;
+    height: 100%;
     margin: 0;
-    overflow-x: hidden;
     padding: 0;
-    width: 100vw;
+    width: 100%;
+    position: relative;
 }
 
 img {
     display: block;
     object-fit: cover;
     width: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -138,7 +145,6 @@ p {
 .heroImageContainer__jHg7 {
     align-items: center;
     display: flex;
-    padding: 25px;
     flex-direction: column;
 }
 
@@ -207,6 +213,7 @@ p {
 }
 
 .menuToggler__g7w9 {
+    cursor: pointer;
     position: absolute;
     right: 25px;
 }
@@ -278,10 +285,5 @@ p {
 
     .heroImageContainer__jHg7 {
         flex-direction: row;
-    }
-
-    .heroImage__jHg7 {
-        width: 50%;
-        overflow: hidden;
     }
 }

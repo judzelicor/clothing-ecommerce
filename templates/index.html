@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
-
+{% block extrastyles %}
+    <link rel="stylesheet" href="/static/css/topIsland.css" />
+{% endblock extrastyles %}
 
 {% block content %}
     {% include 'topIsland.html' %}
@@ -10,20 +12,20 @@
         </h1>
         <div class="heroTextContent__jHg7">
             <p class="heroBlurb__jHg7">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                et dolore magna aliqua. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum.
+                Discover our sustainable and unique collection of clothing made with you in mind. Whether you're looking for 
+                something casual to wear or something more formal for the occassions that matter, we, Oubjects, are here for you.
             </p>
             <button class="heroCTA__jHg7">Shop Our Seasonal Collection</button>
         </div>
+        <div class="heroImageContainer__jHg7">
+            <div class="heroImage__jHg7">
+                <img src="/static/images/220108_BERNER_KUHL_02_0424_f2ccda76-c97f-4c3e-9d91-e3144fb20c1c_x1000.jpg" />
+            </div>
+            <div class="heroImage__jHg7">
+                <img src="/static/images/51e7caa9-e369-46b4.jpg" />
+            </div>
+        </div>
     </section>
-    <div class="heroImageContainer__jHg7">
-        <div class="heroImage__jHg7">
-            <img src="/static/images/220108_BERNER_KUHL_02_0424_f2ccda76-c97f-4c3e-9d91-e3144fb20c1c_x1000.jpg" />
-        </div>
-        <div class="heroImage__jHg7">
-            <img src="/static/images/220108_BERNER_KUHL_08_0830_x1000.jpg" />
-        </div>
-    </div>
     <section class="section">
         <div class="wrapper-standard">
             <div class="p-40">
@@ -38,3 +40,7 @@
 
     {% include 'footer.html' %}
 {% endblock %}
+
+{% block scripts %}
+    <script src="/static/js/index.js"></script>
+{% endblock scripts %}
