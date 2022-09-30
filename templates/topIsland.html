@@ -1,10 +1,16 @@
 {% load static %}
 
+{% block extrastyles %}
+    <link rel="stylesheet" href="/static/css/topIsland.css" />
+{% endblock extrastyles %}
+
 <div class="relative">
     <div class="topIslandWrapper__g7w9">
         <div class="superiorIsland__g7w9">
             <div class="topIslandLogo__g7w9">
-                <img src="{% static 'oubjects-logo.svg' %}" />
+                <a href="/">
+                    <img src="{% static 'oubjects_logo.svg' %}" />
+                </a>
             </div>
             <div class="menuToggler__g7w9">
                 <div class="relative">
@@ -15,7 +21,10 @@
                 <ul>
                     <li>
                         <div>
-                            <p class="menuItem__g7w9">Search</p>
+                            <div class="menuItem__g7w9">
+                                <input class="searchInput__g7w9" type="text" placeholder="Search" />
+                                <p class="shadowSearchInput__g7w9" contenteditable="true">Search</p>
+                            </div>
                         </div>
                     </li>
                     <li>
@@ -35,7 +44,10 @@
                 <a href="">Collections</a>
             </li>
             <li>
-                <a href="">Information</a>
+                <a href="/information">Information</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
             </li>
         </ul>
 
@@ -54,3 +66,7 @@
         <li>This is the mobile menu</li>
     </ul>
 </div>
+
+{% block scripts %}
+    <script src="/static/js/index.js"></script>
+{% endblock scripts %}

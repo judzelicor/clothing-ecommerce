@@ -9,3 +9,12 @@ menuToggler.addEventListener("click", () => {
 closeMobileMenu.addEventListener("click", () => {
     mobileMenu.classList.remove("visible")
 })
+
+const searchInput = document.querySelector(".searchInput__g7w9")
+const searchInputShadow =document.querySelector(".shadowSearchInput__g7w9")
+
+searchInput.addEventListener("keyup", (event) => {
+    console.log("working")
+    searchInputShadow.textContent = event.target.value
+    searchInputShadow.style.width = `${searchInput.clientWidth}px`
+})
