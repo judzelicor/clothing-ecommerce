@@ -135,6 +135,8 @@ p {
 }
 
 .heroCTA__jHg7 {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     border: none;
     background-color: #A83731;
     color: #fff;
@@ -142,7 +144,6 @@ p {
     font-size: 14px;
     height: 52px;
     width: 240px;
-    border-radius: 5em;
     cursor: pointer;
 }
 
@@ -202,6 +203,7 @@ p {
 .topIslandMenu__g7w9 {
     align-items: center;
     display: flex;
+    font-size: 14px;
     gap: 32px;
     justify-content: center;
 }
